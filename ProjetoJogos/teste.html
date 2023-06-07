@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jogo de Multiplicação</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="teste.js"></script>
+
+    <style>
+        .oculto {
+            display: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Jogo de Multiplicação</h1>
+        <button onclick="gerarNumeros()" id="gerarNumerosBtn">Gerar Novos Números</button>
+        <p id="questao"></p>
+        <input type="number" id="resposta">
+        <button id="botaoCalcular" onclick="calcularResultado()" class="oculto">Verificar</button>
+        <p id="resultado"></p>
+    </div>
+</body>
+
+</html>
